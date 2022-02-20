@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oefening 5</title>
+</head>
+
+<body>
+    <h1>Oefening 5</h1>
+    <script>
+        getal = 0;
+        teller = 10;
+        getal = teller++;
+        document.write(`<p> postfix = ${getal}</p>`)
+
+        // teller++ = postfix: geeft de waarde weer voor de verhoging -> 10
+
+        getal1 = 0;
+        teller1 = 10;
+        getal1 = ++teller1;
+
+        document.write(`<p> prefix = ${getal1}</p>`)
+            // ++teller1 = prefix: geeft de waarde weer na de verhoging -> 10+1 = 11
+    </script>
+</body>
+
+</html>
